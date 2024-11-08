@@ -1,0 +1,361 @@
+.main-nav {
+  display: grid;
+  grid-template-rows: 50px;
+  border-radius: 12px;
+  background-color: rgb(53, 49, 49);
+  margin-bottom: 42px;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.main-nav ul li {
+  list-style: none;
+  margin: 20px;
+
+}
+
+.main-nav ul div {
+  display: flex;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* ----------------------------------Registration------------------------------------------------------------ */
+.register,
+.addproduct {
+  min-height: 450px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.register form,
+.edituser form,
+.addproduct form {
+  background-color: #fff;
+  width: 260px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register form input,
+.login form input,
+.forgotpassword form input,
+.edituser form input,
+.addproduct form input {
+  margin: 8px;
+  padding: 4px;
+  width: 220px;
+  height: 42px;
+  text-indent: 5px;
+}
+
+.register form button,
+.addproduct form button {
+  width: 200px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #0f489e;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 3px;
+
+}
+
+
+/* -----------------------------------------------------------login------------------------------------- */
+.login,
+.forgotpassword,
+.edituser {
+  min-height: 450px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login form,
+.forgotpassword form {
+  background-color: #fff;
+  width: 260px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login form button,
+.forgotpassword form button,
+.edituser form button {
+  width: 200px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #0f489e;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 3px;
+
+}
+
+#fp {
+  color: #0f489e;
+}
+
+input[type=file] {
+  width: 180px;
+  border: 1px solid #b1abab;
+
+}
+
+
+
+/* ----------------------------userdashboard----------------------------------- */
+.dashboard {
+  display: flex;
+}
+
+.dashboard .user-details {
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-top: 40px;
+
+}
+
+.user-details h1 {
+  color: aquamarine;
+}
+
+.user-details h3 {
+  color: #fff;
+  font-size: 23px;
+}
+
+.user-details h3 span {
+  color: rgba(0, 255, 255, 0.596);
+  font-size: 23px;
+  margin-right: 17px;
+
+}
+
+.dashboard-ul div {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 200px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 92px;
+  margin-left: 8px;
+}
+
+.dashboard-ul div a {
+  margin-top: 9px;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.adminmenu {
+  display: flex;
+
+}
+
+.adminmenu table {
+  display: grid;
+  background-color: rgb(23, 23, 56);
+  width: 940px;
+  grid-template-columns: repeat(autofit, minmax(200, 1fr));
+  justify-content: center;
+  min-height: 430px;
+  margin-top: 52px;
+  margin-left: 100px;
+  color: white;
+}
+
+.adminmenu table thead {
+  margin-left: -4px;
+  color: white;
+
+}
+
+.adminmenu h1 {
+  text-align: center;
+}
+
+.adminmenu table thead tr th {
+  padding: 18px;
+
+}
+
+.action1 {
+  color: rgb(18, 18, 19);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background-color: green;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 18px;
+  /* width: 100px;
+ height: 50px; */
+  text-align: center;
+  /* text-indent: ; */
+}
+
+.action2 {
+  color: rgb(18, 18, 19);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background-color: rgb(202, 35, 49);
+  font-family: 'Franklin Gothic Medium';
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  /* text-indent: ; */
+}
+
+.action-btn {
+  padding-left: 190px;
+}
+
+
+.tboady-child td {
+  padding: 17px;
+  border: 2px solid white;
+}
+
+.parent {
+  display: grid;
+  grid-template-rows: 260px 260px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  place-items: center;
+}
+.child{
+  text-align: center;
+}
+.child h3 span{
+  background-color: #0e739f;
+}
+.child button{
+  background-color: yellow;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.productdetail{
+  display: flex;
+}
+.productdetail img{
+  margin: 18px;
+}
+.detailchild{
+  margin: 100px;
+}
+.detailchild h2 span{
+  margin-right: 12px;
+  color: rgb(34, 66, 66);
+  font-size: larger;
+}
+.detailchild button{
+  background-color: green;
+  height: 40px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 12px;
+}
+.cartpage h2{
+  margin-left: 12px;
+  margin-top: 12px;
+  color: rgb(46, 87, 87);
+  
+}
+.cartpage h2 p{
+  color: rgb(205, 159, 159);
+
+  
+}
+.parent-cart{
+  display: flex;
+  min-height: 430px;
+  
+}
+.parent-cart .first{
+  display: flex;
+  
+justify-content: center;
+align-items: center;
+margin-top: 24px;
+}
+.parent-cart .second{
+  margin-left: 260px;
+
+
+}
+.first button{
+  background-color: red;
+  height: 30px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+
+}
+
+.parent .second h2{
+  margin-top: 9px;
+
+}
+.parent .second p{
+  margin-bottom: 4px;
+
+}
+.parent .second h4{
+  margin-top: 9px;
+
+}
+.parent-cart .second div button{
+  margin-top: 9px;
+  background-color: yellow;
+  width: 160px;
+  height: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
